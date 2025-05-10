@@ -1,0 +1,101 @@
+body{
+  background-color: black;
+}
+
+.todoList{
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+h1{
+  font-size: 4rem;
+  color: white;
+}
+button{
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.btnAdd{
+  background-color: rgb(46, 46, 46);
+  color: white;
+  font-size: 1.5rem;
+}
+
+.btnAdd:hover{
+  background-color: white;
+  color: black;
+}
+
+.btnDelete{
+  background-color: rgb(46, 46, 46);
+  color: white;
+}
+
+.btnDelete:hover{
+  background-color: #ff6961;
+  color: white;
+}
+
+.btnMove{
+  background-color: rgb(46, 46, 46);
+  color: white;
+}
+
+.btnMove:hover{
+  background-color: #77dd77;
+  color: white;
+}
+
+input[type="text"]{
+  font-size: 1.5rem;
+  padding: 10px;
+  border: none;
+  background-color: rgb(46, 46, 46);
+  color: white;
+  outline: none;
+}
+
+input[type="checkbox"]{
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+  cursor: pointer;
+  accent-color: black;
+  transform: scale(1.2);
+}
+
+ol{
+  padding: 0;
+}
+li{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: rgb(46, 46, 46);
+  margin-bottom: 10px;
+  display: flex;
+  color: white;
+  align-items: center;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  border-bottom: 1px solid black;
+}
+.text{
+  flex: 1;
+}
+.btnDelete, .btnMove{
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
+.finishedTask{
+  text-decoration: line-through;
+}
