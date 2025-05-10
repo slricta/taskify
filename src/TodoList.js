@@ -53,7 +53,7 @@ function TodoList() {
 
     return (
         <div className="todoList">
-            <h1>ewan ko</h1>
+            <h1>Taskify</h1>
             <div>
                 <input
                     type="text"
